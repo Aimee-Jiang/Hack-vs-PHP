@@ -3,8 +3,8 @@
 | categories   |      both      |  PHP |  Hack |
 |:----------:|:-------------:|:------:|:--------:|
 | Primitive Types |  bool, int, float, string, array, and resource | boolean, integer, real, and double |  |
-| col 2 is |    centered   |   $12 | 100 |
-| col 3 is | right-aligned |    $1 | 100 |
+| mixed |       |    | any value, including null |
+| returning void |  |  valid | invalid, replaced with mixed |
 
 ### num
 either an integer or a float
@@ -13,5 +13,5 @@ either an integer or a float
 either an integer or a string
 
 ### tuple
-fixed number of values, common use is to return multiple values
+fixed number of values, common use is to return multiple values. Can't add or remove elements, can replace value but keep the same type. is_array -> true
 
