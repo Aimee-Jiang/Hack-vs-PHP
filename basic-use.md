@@ -5,6 +5,7 @@
 | Primitive Types |  bool, int, float, string, array, and resource | boolean, integer, real, and double |  |
 | mixed |       |    | any value, including null |
 | returning void |  |  valid | invalid, replaced with **mixed** |
+| classname | | can use a string containing the name of a class in any position |classname<Thing> |
 
 ### num
 either an integer or a float
